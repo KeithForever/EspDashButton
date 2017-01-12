@@ -7,10 +7,13 @@ I created this project as a solution to Amazons newest version of the dash butto
 
 # Setup
 Step one:
-  Setup a wireless router that is not connected to the internet. This will allow the Dash button to connect to it but will prevent the Dash button from buying any amazon products.
+Setup a wireless router that is not connected to the internet. This will allow the Dash button to connect to it but will prevent the Dash button from buying any amazon products.
+  
 Step two: 
-  Use the amazon app on your phone to connect the dash button to the wireless network you just setup. When you get to the last step when it asks you to select a product, dont select a product. You can if you really want to since the router isnt connected to the internet. I just do this just to make sure I dont get amazon products shipped to my door randomly. 
+Use the amazon app on your phone to connect the dash button to the wireless network you just setup. When you get to the last step when it asks you to select a product, dont select a product. You can if you really want to since the router isnt connected to the internet. I just do this just to make sure I dont get amazon products shipped to my door randomly. 
+  
 Step three: 
-  Flash the arduino file to the esp8266. Edit the code so it contains your dash button mac adress and the name and password for your wireless network you setup in step one. I have a small i2c display connected to the esp so I can see what's going on.
+Flash the arduino file to the esp8266. Edit the code so it contains your dash button mac adress and the name and password for your wireless network you setup in step one. I have a small i2c display connected to the esp so I can see what's going on.
+  
 Step four:
-  Setup syslog on your router from step one. For this you will need the IP address of your esp8266. Once this is setup your esp8266 should be alerted when your Dash button is online. I realize comparing mac addresses probably isnt the best way to do this, it was just the easiest to do at the time.
+Setup syslog on your router from step one. For this you will need the IP address of your esp8266. Once this is setup your esp8266 should be alerted when your Dash button is online. I realize comparing mac addresses probably isnt the best way to do this, it was just the easiest to do at the time.
